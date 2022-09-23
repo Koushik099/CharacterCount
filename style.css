@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  height: 100vh;
+}
+
+.container {
+  gap: 30px;
+}
+.input {
+  padding: 10px;
+}
+
+.btn {
+  box-sizing: border-box;
+  width: 170px;
+  border: none;
+  background-color: #383cc1;
+  font-size: 20px;
+  padding: 10px 10px;
+  color: white;
+}
+#btnword {
+  margin-right: 10px;
+}
+
+p {
+  font-size: 30px;
+}
