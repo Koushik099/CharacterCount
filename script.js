@@ -20,5 +20,12 @@ let countChar = () => {
   showChar.textContent = `Total Characters are: ${text.length}`;
 };
 
+let runMethod = () => {
+  countChar();
+  countWord();
+};
+
 wordBtn.addEventListener("click", countWord);
 charBtn.addEventListener("click", countChar);
+
+inputbox.addEventListener("input", runMethod);
